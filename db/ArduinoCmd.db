@@ -1,0 +1,6 @@
+# ピン制御用レコード
+record(stringout, "arduino:cmd") {
+  field(DESC, "Send command to Arduino")
+  field(OUT, "@ArduinoCmd.proto /dev/ttyACM0 cmd")
+}
+

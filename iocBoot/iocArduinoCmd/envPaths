@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iocArduinoCmd")
+epicsEnvSet("TOP","/home/mix3/modules/stream/ArduinoCmd")
+epicsEnvSet("EPICS_BASE","/home/mix3/base")
+epicsEnvSet("ASYN","/home/mix3/modules/asyn")
+epicsEnvSet("STREAM","/home/mix3/modules/stream")

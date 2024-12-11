@@ -1,0 +1,5 @@
+Terminator = "\n";
+
+cmd {
+    out "%(CMD)s";
+}
